@@ -7,7 +7,7 @@ services:
       - PGID=1000
       - TZ=Asia/Kuala_Lumpur
       #- BASE_URL=/ombi #optional
-    volumes:
+    #volumes:
       #- /path/to/appdata/config:/config
     ports:
       - 3579:3579
