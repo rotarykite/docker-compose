@@ -14,7 +14,7 @@ services:
     volumes:
       #- qbittorrent:/config
       - /mnt/downloads:/downloads
-      - /mnt/downloadsp:downloadsp
+      - /mnt/downloadsp:/downloadsp
     networks:
       - docker
     restart: unless-stopped
