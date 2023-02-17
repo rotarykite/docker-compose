@@ -13,8 +13,8 @@ services:
       - 6881:6881/udp
     volumes:
       #- qbittorrent:/config
-      - /mnt/downloads:/mnt/downloads
-      - /mnt/downloadsp:/mnt/downloads
+      - /mnt/downloads:/downloads
+      - /mnt/downloadsp:downloadsp
     networks:
       - docker
     restart: unless-stopped
